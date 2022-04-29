@@ -1,23 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/css/style.build.css">
-</head>
+<html lang="ru">
+@@include('./layouts/head.html')
+@@include('./layouts/styles.html')
 
 <body class="webp">
-    <header>
-    </header>
-    <main>
-    </main>
-    <footer>
-    </footer>
-
+  @@include('./components/header/header.html')
+  <main>
+    Main
+  </main>
+  @@include('./components/footer/footer.html')
 </body>
-<script type="module" src="/js/app.build.js"></script>
+
+@@include('./layouts/scripts.html')
 
 </html>
